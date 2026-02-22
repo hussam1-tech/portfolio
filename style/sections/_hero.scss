@@ -3,9 +3,39 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background: $white-color;
+  // background: $white-color;
+  // DARK MODE
+  // background: oklch(39.6% 0.141 25.723);
+  // background: oklch(40.8% 0.123 38.172);
+  // background: oklch(41.4% 0.112 45.904);
+  // background: oklch(42.1% 0.095 57.708);
+  // background: oklch(40.5% 0.101 131.063);
+  // background: oklch(39.3% 0.095 152.535); // good
+  // background: oklch(37.8% 0.077 168.94);  // good
+  // background: oklch(38.6% 0.063 188.416); // good
+  // background: oklch(39.8% 0.07 227.392);  // good
+  // background: oklch(39.1% 0.09 240.876);  // good
+  // background: oklch(37.9% 0.146 265.522); // good
+  // background: oklch(35.9% 0.144 278.697);  // good
+  // background: oklch(38% 0.189 293.745);// good
+  // background: oklch(38.1% 0.176 304.987);// good
+  // background: oklch(40.1% 0.17 325.612);// good
+  // background: oklch(40.8% 0.153 2.432);// good
+  // background: oklch(41% 0.159 10.272);// good
+  // background: oklch(20.8% 0.042 265.755);// good
+  // background: oklch(21% 0.034 264.665);// good
+  // background: oklch(21% 0.006 285.885);// good
+  // background: oklch(20.5% 0 0);// good
+  // background: oklch(21.6% 0.006 56.043);// good
+  // background: oklch(21.4% 0.009 43.1);// good
+  // background: oklch(21.2% 0.019 322.12);// good
+  // background: oklch(21.8% 0.008 223.9);// good
+  // background: oklch(22.8% 0.013 107.4);// good
+// LIGHT MODE
+background: oklch(93% 0.034 272.788);
   font-weight: 400;
   color: $dark-blue-text;
+  // color: $white-color;
   padding: 0rem 5.6rem;
   top: 0;
   left: 0;
